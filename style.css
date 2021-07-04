@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .zayed{
     color: orange;
 }
-section{
+.flexible-conatiner{
     display: flex;
     margin-bottom: 150px;
 }
@@ -40,4 +43,33 @@ section{
 .right-padding{
     padding-right: 25%;
     text-align: justify;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experiences-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-right:  5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+   
+}
+#web-developer-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
